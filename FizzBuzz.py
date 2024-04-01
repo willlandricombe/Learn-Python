@@ -1,11 +1,13 @@
 print("My FizzBuzz Game")
 
 for i in range (1,101):
+  output = ""
+  
   if i % 3 == 0:
-    output += Fizz
+    output += "Fizz"
   
   if i % 5 == 0:
-    output += Buzz
+    output += "Buzz"
   
   if output == "":
     output = i
